@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_menu"
+    tools:context="com.example.defsin.myapplication.Menu">
+
+
+    <LinearLayout
+        android:id="@+id/menuRowOne"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_above="@+id/menuRowTwo"
+        android:layout_alignLeft="@+id/menuRowTwo"
+        android:layout_alignStart="@+id/menuRowTwo">
+
+
+        <Button
+            android:id="@+id/duelPointsButt"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/menuButtLifePoints"
+            android:onClick="clickLifePoints"
+            android:textColor="@android:color/white"
+            android:background="@drawable/points_buttbg_color"/>
+
+        <Button
+            android:id="@+id/duelStatsButt"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/menuButtTurnPicker"
+            android:onClick="clickTurnPicker"
+            android:textColor="@android:color/white"
+            android:background="@drawable/points_buttbg_color"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menuRowTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/diceRollButt"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/menuButtRollDie"
+            android:onClick="clickDie"
+            android:textColor="@android:color/white"
+            android:background="@drawable/points_buttbg_color"/>
+
+        <Button
+            android:id="@+id/coinFlipButt"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/menuButtCoinFlip"
+            android:onClick="clickCoin"
+            android:textColor="@android:color/white"
+            android:background="@drawable/points_buttbg_color"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/player1Input"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:hint="Player 1"
+            />
+        <EditText
+            android:id="@+id/player2Input"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:hint="Player 2"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1000dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        app:srcCompat="@mipmap/yugiohlogo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+</RelativeLayout>

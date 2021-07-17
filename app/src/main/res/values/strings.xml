@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Duelerino</string>
+    <string name="user1Points">8000</string>
+    <string name="user2Points">8000</string>
+    <string name="subtr1000">1000</string>
+    <string name="subtr100">100</string>
+    <string name="subtr10">10</string>
+    <string name="subtr1">1</string>
+    <string name="selectedPoints">0</string>
+    <string name="bttnAttack">Attack</string>
+    <string name="bttnGain">Gain</string>
+    <string name="ninebtn">9</string>
+    <string name="eightbtn">8</string>
+    <string name="sevenbtn">7</string>
+    <string name="sixbtn">6</string>
+    <string name="fivebtn">5</string>
+    <string name="fourbtn">4</string>
+    <string name="threebtn">3</string>
+    <string name="twobtn">2</string>
+    <string name="onebtn">1</string>
+    <string name="zerobtn">0</string>
+    <string name="x10btn">x 10</string>
+    <string name="x100btn">x 100</string>
+    <string name="x1000btn">x 1000</string>
+    <string name="clearbtn">Clear</string>
+    <string name="user1Btn">Player 1</string>
+    <string name="user2Btn">Player 2</string>
+
+    <string name="menuButtLifePoints">Life Points</string>
+    <string name="menuButtTurnPicker">First Move</string>
+    <string name="menuButtRollDie">Roll A Die</string>
+    <string name="menuButtCoinFlip">Flip A Coin</string>
+    <string name="displayNothing">O</string>
+
+    <string name="turnText">Who goes first?</string>
+
+    <string name="dieText">Roll</string>
+
+    <string name="coinText">Flip</string>
+</resources>

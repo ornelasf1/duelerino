@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.defsin.myapplication.DieRoll">
+
+    <ImageView
+        android:id="@+id/dieDisplay"
+        android:contentDescription="Die"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+
+    <Button
+        android:id="@+id/dieButton"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="@string/dieText"
+        android:textSize="20dp"
+        android:onClick="clickRollButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/points_buttbg_color"/>
+</RelativeLayout>
